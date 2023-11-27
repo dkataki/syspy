@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-USAGE:
+USAGE::
 logparsing_apache.py apache_log_file
 This script takes apache log file as an argument and then generates a report, with hostname,
 bytes transferred and status
