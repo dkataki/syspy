@@ -30,17 +30,17 @@ def interpret_bmi(bmi):
         return "Invalid input. Height should be greater than 0."
 
     if bmi < 18.5:
-        return f"Your BMI is {bmi}, you are underweight."
+        return  "Your BMI is {bmi}, you are underweight."
     elif bmi < 24.9:
-        return f"Your BMI is {bmi}, you have a normal weight."
+        return "Your BMI is {bmi}, you have a normal weight."
     elif bmi < 29.9:
-        return f"Your BMI is {bmi}, you are overweight."
+        return "Your BMI is {bmi}, you are overweight."
     elif bmi < 34.9:
-        return f"Your BMI is {bmi}, you are obese (Class I)."
+        return "Your BMI is {bmi}, you are obese (Class I)."
     elif bmi < 39.9:
-        return f"Your BMI is {bmi}, you are obese (Class II)."
+        return "Your BMI is {bmi}, you are obese (Class II)."
     else:
-        return f"Your BMI is {bmi}, you are obese (Class III)."
+        return "Your BMI is {bmi}, you are obese (Class III)."
 
 
 def main():
